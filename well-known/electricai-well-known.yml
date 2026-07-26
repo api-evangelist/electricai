@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.electric.ai/.well-known/*
+host: https://www.electric.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: >-
+  No /.well-known/ discovery documents are published on the Electric marketing
+  host. Electric operates a sales-led IT/security management SaaS with a customer
+  application (my.electric.ai) and knowledge base (support.electric.ai) rather
+  than a public developer API surface. All probed paths returned 404.

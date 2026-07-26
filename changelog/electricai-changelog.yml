@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://support.electric.ai/electricithub/release-notes
+product: Electric IT Hub
+scheme: date-based
+versioning_note: >-
+  Electric publishes dated release notes for the Electric IT Hub product. There is
+  no semantic version numbering; entries are tracked chronologically by release date
+  (Month DD, YYYY). This is a product changelog, not a public API changelog (Electric
+  does not publish a public developer API).
+current_version: '2026-07-09'
+entries:
+- date: '2026-07-09'
+  breaking: false
+  highlights:
+  - Spanish language support added
+  - New Site Administration section for managing company locations
+  - Admins can update employee work email addresses with automatic HR system sync
+  - Self-serve license increases without support tickets
+- date: '2026-06-24'
+  breaking: false
+  highlights:
+  - Automatic Group Change tasks created when employees are added to or removed from groups
+  - New Employee Updates Settings page for automation controls
+  - Configurable application access for onboarding (manual review vs. automated)
+  - Hardware provisioning configuration options
+- date: '2026-06-10'
+  breaking: false
+  highlights:
+  - Redesigned onboarding setup screen with five workflow paths
+  - Improved notifications in the Complete IT Setup task
+  - Bulk application additions
+  - More secure credential sharing via email links
+- date: '2026-05-27'
+  breaking: false
+  highlights:
+  - Task and champion reassignment during offboarding
+  - Automatic profile data sync to connected apps (Slack, Microsoft, Google Workspace)
+  - Granular Google Workspace offboarding controls
+  - Refreshed Access & Settings interface

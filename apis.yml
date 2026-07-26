@@ -1,8 +1,29 @@
 aid: electricai
 name: Electric.ai
-description: 'Electric.ai is a company surfaced as a portfolio company of ggv-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: it-management. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Electric (electric.ai) is an all-in-one IT and security management platform built
+  for small and mid-sized businesses that lack an in-house IT team. From a single IT
+  Hub it automates employee onboarding and offboarding, device (MDM) management,
+  application provisioning and access, credential/password management, and security
+  posture, and it syncs with the customer's HR system so records stay clean across
+  the employee lifecycle. Electric is delivered as a sales-led SaaS with a customer
+  application (my.electric.ai), a knowledge base (support.electric.ai), transparent
+  per-employee pricing tiers, and an Atlassian Statuspage. It integrates with tools
+  such as JumpCloud, Google Workspace, Microsoft 365, Slack, Justworks, Keeper, and
+  Drata, but does not publish a public developer API or OpenAPI; partner data flows
+  in through partners' APIs (e.g. Justworks Partner API, Merge).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://electric.ai/wp-content/uploads/Metadata-Home-Page.jpg
 url: https://raw.githubusercontent.com/api-evangelist/electricai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - It Management
+- IT Support
+- Device Management
+- MDM
+- Security
+- Employee Onboarding
+- SaaS Management
+- SMB
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.electric.ai/
+- type: Documentation
+  url: https://support.electric.ai/
+- type: Support
+  url: https://support.electric.ai/
+- type: Blog
+  url: https://electric.ai/blog
+- type: Pricing
+  url: https://electric.ai/pricing
+- type: Login
+  url: https://my.electric.ai/
+- type: TermsOfService
+  url: https://electric.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://electric.ai/privacy-policy
+- type: StatusPage
+  url: https://status.electric.ai
+- type: ChangeLog
+  url: changelog/electricai-changelog.yml
+- type: DomainSecurity
+  url: security/electricai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
